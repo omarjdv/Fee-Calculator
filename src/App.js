@@ -39,7 +39,7 @@ function App() {
             max={24}
             marks={marksFeeds}
           />
-          <Footer label="CUOTA FIJA POR MES" amount={formatMoney(fee)} />
+          <Footer label="CUOTA FIJA POR MES" amount={formatMoney(fee)} signature="Omar Díaz" />
         </div>
       </Card>
     </ContainerCard>

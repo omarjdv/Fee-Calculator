@@ -52,3 +52,18 @@
   flex: 1;
   cursor: pointer;
 }
+
+.signature {
+  margin-top: 20px;
+  color: $white;
+  font-weight: bold;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.icon {
+  width: 50px;
+}
