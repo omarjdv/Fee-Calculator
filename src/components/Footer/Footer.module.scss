@@ -67,3 +67,28 @@
 .icon {
   width: 50px;
 }
+
+@media only screen and (max-width: 800px) {
+  .footer {
+    width: 184px;
+    margin-top: 30px;
+  }
+  .label {
+    font-size: 10px;
+  }
+  .amount {
+    font-size: 26px;
+  }
+  .feeButton {
+    font-size: 12px;
+  }
+  .feeDetails {
+    font-size: 8px;
+  }
+  .signature {
+    font-size: 10px;
+  }
+  .icon {
+    margin-top: -15px;
+  }
+}

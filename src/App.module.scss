@@ -5,3 +5,10 @@
   height: 600px;
   background-color: $blue;
 }
+
+@media only screen and (max-width: 800px) {
+  .content {
+    width: 280px;
+    height: 470px;
+  }
+}
