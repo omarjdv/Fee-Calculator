@@ -35,8 +35,8 @@ describe('format money utils', () => {
     const result = formatMoney(amount);
     expect(result).toBe(expectedResult);
   });
-
-  test('return null with not numeric values ', () => {
+  // eslint-disable no-trailing-spaces */"
+  test('return null with not numeric values', () => {
     const amount = 'abc';
     const result = formatMoney(amount);
     expect(result).toBeNull();
